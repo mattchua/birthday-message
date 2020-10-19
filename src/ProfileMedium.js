@@ -1,24 +1,17 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 //ProfileMedium.js
-import React from 'react'
-import { faEdit } from '@fortawesome/free-solid-svg-icons';
-import { faBirthdayCake } from '@fortawesome/free-solid-svg-icons';
+import React from "react";
+import Avatar from "./Avatar";
+import Bio from "./Bio";
+import Message from "./Message";
 
-
-function ProfileMedium (props)
-{
-    const [enabled, setDisabled] = React.useState(true);
-    return (
-        <span className='profile'>
-            <img alt='' className='ProfileImg' src={props.src} />
-            <div>{props.name}</div>
-            <div><FontAwesomeIcon icon={faBirthdayCake} /> {props.birthday}</div>
-            <div className='messageRow'>
-                <textarea className='birthdayMessage' disabled={enabled}></textarea>
-                <button className='editButton' onClick={() => setDisabled(!enabled)}><FontAwesomeIcon color='black' icon={faEdit} /></button>
-            </div>
-        </span>
-    );
+function ProfileMedium(props) {
+  return (
+    <span className="profile">
+      <Avatar src={props.src} />
+      <Bio name={props.name} birthday={props.birthday} />
+      <Message />
+    </span>
+  );
 }
 
-export default ProfileMedium
+export default ProfileMedium;

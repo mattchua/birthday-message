@@ -58,19 +58,56 @@ button {
   border-radius: 50%;
 }
 
+.editButtonOff{
+  display: none;
+}
+
 .editButton{
+  display: inline;
+  border: none;
+  background-color: darkblue;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: small;
   vertical-align: middle;
+  width: 50px;
+}
+
+.deleteButton{
+  border-radius: 50%;
+  background-color: transparent;
+  outline: none;
+  font-size: small;
+  vertical-align: middle;
+}
+
+.deleteButtonOff{
+  display: none;
 }
 
 .birthdayMessage{
   vertical-align: middle;
-  height: 100%;
-  margin: 5px;
+  resize: none;
+  border-radius: 10px;
+  outline: none;
+  width: 120px;
+  border: none;
+  float: left;
+  height: 2em;
 }
 
 .messageRow{
   justify-content: center;
   align-items: center;
+  display: flex;
+}
+
+.messageBox{
+  display: inline-block;
+  background-color: white;
+  width: 160px;
+  height: 2em;
+  border-radius: 10px;
 }
 
 .topNav{
@@ -85,4 +122,16 @@ button {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+}
+
+.clearIconOff{
+  display: none;
+}
+
+.clearIcon{
+  vertical-align: middle;
+  padding: 0px;
+  background-color: transparent;
+  border: none;
+  outline: none;
 }

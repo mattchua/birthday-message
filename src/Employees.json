@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Michael Jesson",
+    "gender": "Male",
+    "birthday": "12-2-1909",
+    "src" : "https://pbs.twimg.com/profile_images/3231432691/9973535c9ec49b416a0e700e8190ce1b_400x400.jpeg"
+  },
+  {
+    "name": "Barracks Obama",
+    "gender": "Male",
+    "birthday" : "09-04-1950",
+    "src" : "https://res-5.cloudinary.com/crunchbase-production/image/upload/c_thumb,h_170,w_170,f_auto,g_faces,z_0.7,b_white,q_auto:eco/v1468279598/hem0wowsouit3qf45vng.png"
+  },
+  {
+    "name": "Wackie Chan",
+    "gender": "Male",
+    "birthday": "19-08-1940",
+    "src" : "https://transcoder.plex.tv/photo?size=medium-240&url=https%3A%2F%2Fmetadata-static.plex.tv%2Fpeople%2F5d77682b6f4521001ea99ff0.jpg"
+  },
+  {
+    "name": "Hillary Buff",
+    "gender": "Female",
+    "birthday": "08-08-1998",
+    "src" : "https://transcoder.plex.tv/photo?size=medium-240&url=https%3A%2F%2Fmetadata-static.plex.tv%2Fpeople%2F5d77682685719b001f3a0b33.jpg"
+  },
+  {
+    "name": "Dual Lips",
+    "gender": "Female",
+    "birthday": "07-07-1990",
+    "src" : "https://sing.salon/uploads/monthly_2017_07/d9646381-1983-4ea9-8f83-331663ee8f11.thumb.jpg.bb43f13c074e7e4f777da012b27c988f.jpg"
+  },
+  {
+    "name": "Feline Dion",
+    "gender": "Female",
+    "birthday": "09-07-1979",
+    "src" : "https://eurovisionary.com/wp-content/uploads/2013/07/Celine_Dion.jpg"
+  }
+]
