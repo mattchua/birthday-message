@@ -93,6 +93,7 @@ button {
   border: none;
   float: left;
   height: 2em;
+  overflow: hidden;
 }
 
 .messageRow{
