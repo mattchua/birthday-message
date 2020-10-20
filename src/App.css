@@ -90,7 +90,6 @@ button {
   resize: none;
   border-radius: 10px;
   outline: none;
-  width: 120px;
   border: none;
   float: left;
   height: 2em;
@@ -134,4 +133,9 @@ button {
   background-color: transparent;
   border: none;
   outline: none;
+}
+
+.searchBar{
+  padding: .6em;
+  padding-left: 32px;
 }

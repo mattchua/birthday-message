@@ -6,11 +6,11 @@ import Message from "./Message";
 
 function ProfileMedium(props) {
   return (
-    <span className="profile">
+    <li className="profile">
       <Avatar src={props.src} />
       <Bio name={props.name} birthday={props.birthday} />
-      <Message />
-    </span>
+      <Message id={props.id}/>
+    </li>
   );
 }
 
