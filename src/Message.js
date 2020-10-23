@@ -5,9 +5,7 @@ import { faTimesCircle } from "@fortawesome/free-regular-svg-icons";
 
 function Message(props) {
   const [textbox, setTextbox] = React.useState("");
-  const handleClick = (e) => {
-    
-  };
+
   return (
     <div className="messageRow">
       <form>

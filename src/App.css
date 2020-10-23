@@ -137,6 +137,44 @@ button {
 }
 
 .searchBar{
+  border-style: hidden;
+  border-radius: 1em;
   padding: .6em;
   padding-left: 32px;
+  width: -webkit-fill-available;
+  outline: none;
+}
+
+.filter1{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.filter2{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.sort1{
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.sortSelection{
+  width: 100%;
+  border-radius: 0.5em;
+}
+
+.genderSelection{
+  border-radius: 0.5em;
+}
+
+.monthSelection{
+  border-radius: 0.5em;
 }

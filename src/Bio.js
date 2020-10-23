@@ -8,7 +8,12 @@ function Bio(props) {
       <div>{props.name}</div>
       <div>
         {" "}
-        <FontAwesomeIcon icon={faBirthdayCake} /> {props.birthday}
+        <FontAwesomeIcon icon={faBirthdayCake} />{" "}
+        {new Intl.DateTimeFormat("en-GB", {
+          year: "numeric",
+          month: "long",
+          day: "2-digit",
+        }).format(new Date(props.birthday))}
       </div>
     </span>
   );

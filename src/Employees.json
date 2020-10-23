@@ -43,5 +43,13 @@
     "gender": "Female",
     "birthday": "09-07-1979",
     "src" : "https://eurovisionary.com/wp-content/uploads/2013/07/Celine_Dion.jpg"
+  },
+  {
+    
+    "id" : 7,
+    "name": "Aloy",
+    "gender": "Female",
+    "birthday": "04-04-3021",
+    "src" : "https://scontent.fsin9-1.fna.fbcdn.net/v/t1.0-9/19510398_1029311240569677_1102404284372708604_n.jpg?_nc_cat=105&ccb=2&_nc_sid=09cbfe&_nc_ohc=q4dz6LCYuYsAX-kMHdh&_nc_ht=scontent.fsin9-1.fna&oh=e5e0070cc721cd29db3be5201800edf4&oe=5FB79AC3"
   }
 ]
